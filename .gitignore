@@ -1,0 +1,8 @@
+.dart_tool
+build
+available*.txt
+hosts*.txt
+backup
+config.json
+pubspec.lock
+*.csv
