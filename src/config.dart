@@ -19,7 +19,7 @@ class Config {
   int httpHeadConcurrency = 16;
   int maxBytesRead = 10 * 1024 * 1024;
   Duration tcpingTimeout = const Duration(milliseconds: 1000);
-  Duration httpHeadTimeout = const Duration(milliseconds: 1000);
+  Duration httpHeadTimeout = const Duration(milliseconds: 3000);
   Duration httpDownloadTimeout = const Duration(milliseconds: 5000);
   Duration downloadTimeout = const Duration(milliseconds: 10000);
   String httpHeadUrl = "https://speedtest.nekocha.top/download";
