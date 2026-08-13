@@ -6,8 +6,7 @@ import 'config.dart';
 import 'libs/hosts.dart';
 import 'util/format_print.dart';
 
-Future<void> hostOverride(String fastip,{bool auto = false}) async {
-  final Config config = getConfig();
+Future<void> hostOverride(Config config,String fastip,{bool auto = false}) async {
   final String manifestFilePath = config.hostsManifestPath;
   //检查
   final File manifestFile = File(manifestFilePath);
